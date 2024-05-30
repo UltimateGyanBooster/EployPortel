@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 const LeaveApplicationForm = () => {
+
   const [formData, setFormData] = useState({
     leaveType: '',
     leaveDate: '',
@@ -52,7 +53,7 @@ const LeaveApplicationForm = () => {
           name="leaveDate"
           value={formData.leaveDate}
           onChange={handleChange}
-          className="w-full p-3 bg-gray-100 rounded-3xl text-gray-600"
+          className="w-full p-3 bg-gray-100 rounded-3xl text-gray-500"
         />
       </div>
       <div className="mb-4">
